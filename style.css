@@ -1,0 +1,55 @@
+#img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: solid 2px black;
+  padding:0px;
+}
+
+#catlist {
+ background-color:cadetblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: flex-start;
+  margin-top: 4%;
+  row-gap: 2%;
+  padding-top: 2px;
+}
+
+.cat {
+  margin: 2%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#button {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.popup .popuptext {
+  visibility: hidden;
+  left: 100%;
+  margin-left: -80px;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 8s;
+  animation: fadeIn 8s;
+}
+
+
+
+
