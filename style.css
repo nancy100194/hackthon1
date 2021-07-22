@@ -1,3 +1,11 @@
+.title{
+   background-color:grey;
+  text-align:center;
+  
+}
+#cat-section{
+  text-align:center
+}
 #img {
   height: 150px;
   width: 150px;
@@ -24,7 +32,7 @@
 
 #button {
   text-align: center;
-  margin-top: 2%;
+  margin-top: 10%;
 }
 
 .popup {
